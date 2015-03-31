@@ -1,0 +1,103 @@
+[{
+	"name": "Home",
+	"url": "#",
+	"iconClass": "glyphicon glyphicon-home",
+	"items": [{
+		"name": "item 0.1",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-dashboard"
+	},{
+		"name": "item 0.2",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-paperclip"
+	},{
+		"name": "item 0.3",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-heart-empty"
+	},{
+		"name": "item 0.4",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-link"
+	}]
+},{
+	"name": "Menu 1",
+	"url": "#",
+	"iconClass": "glyphicon glyphicon-phone",
+	"items": [{
+		"name": "item 1.1",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-pushpin"
+	},{
+		"name": "item 1.2",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-usd"
+	},{
+		"name": "item 1.3",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-gbp",
+		"items": [{
+			"name": "item 1.3.1",
+			"url": "#",
+			"iconClass": "glyphicon glyphicon-phone-alt"
+		},{
+			"name": "item 1.3.2",
+			"url": "#",
+			"iconClass": "glyphicon glyphicon-file"
+		},{
+			"name": "item 1.3.3",
+			"url": "#",
+			"iconClass": "glyphicon glyphicon-time"
+		}]
+	},{
+		"name": "item 1.4",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-picture"
+	},{
+		"name": "item 1.5",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-film"
+	}]
+},{
+	"name": "Menu 2",
+	"url": "#",
+	"iconClass": "glyphicon glyphicon-asterisk",
+	"items": [{
+		"name": "item 2.1",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-euro"
+	},{
+		"name": "item 2.2",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-ok"
+	},{
+		"name": "item 2.3",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-cloud"
+	},{
+		"name": "item 2.4",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-plane"
+	}]
+},{
+	"name": "Menu 3",
+	"url": "#",
+	"iconClass": "glyphicon glyphicon-user",
+	"items": [{
+		"name": "item 3.1",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-headphones"
+	},{
+		"name": "item 3.2",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-volume-off"
+	},{
+		"name": "item 3.3",
+		"url": "#",
+		"iconClass": "glyphicon glyphicon-volume-down",
+		"items": [{
+			"name": "item 3.3.1",
+			"url": "#",
+			"iconClass": "glyphicon glyphicon-volume-up"
+		}]
+	}]
+}]

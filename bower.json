@@ -1,0 +1,28 @@
+{
+  "name": "sidebar-menu",
+  "version": "1.0.0",
+  "description": "A sidebar menu based on Angular UI Bootstrap.",
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "sidebar",
+    "menu"
+  ],
+  "authors": [
+    "Jason"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "examples/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.12.1",
+    "bootstrap": "3.1.1",
+    "angular": "1.3.15",
+    "font-awesome": "~4.3.0"
+  }
+}

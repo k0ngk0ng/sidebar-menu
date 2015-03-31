@@ -1,0 +1,28 @@
+{
+  "name": "sidebar-menu",
+  "version": "1.0.0",
+  "description": "A sidebar menu based on Angular UI Bootstrap.",
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "sidebar",
+    "menu"
+  ],
+  "author": "Jason",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "^1.9.4",
+    "gulp-less": "^3.0.2",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-minify-html": "^1.0.1",
+    "gulp-ng-html2js": "^0.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0"
+  }
+}

@@ -1,0 +1,12 @@
+<li>
+	<a ng-href="{{menuItem.url}}" ng-click="isOpen=!isOpen">
+		<span class="sidebar-menu-item-icon" ng-class="menuItem.iconClass"></span>
+		<span ng-bind="menuItem.name"></span>
+		<span class="sidebar-menu-item-arrow glyphicon" ng-if="menuItem.items &amp;&amp; menuItem.items.length" ng-class="{'glyphicon-chevron-down': isOpen, 'glyphicon-chevron-left': !isOpen}"></span>	
+	</a>
+	<ul ng-if="menuItem.items &amp;&amp; menuItem.items.length" collapse="!isOpen">
+		<li ng-repeat="item in menuItem.items">
+			<sidebar-menu-item menu-item="item"></sidebar-menu-item>
+		</li>
+	</ul>
+</li>
