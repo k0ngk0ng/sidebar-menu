@@ -24,9 +24,7 @@
     "examples",
     "bower_components",
     "test",
-    "tests",
-    "package.json",
-    "gulpfile.js"
+    "tests"
   ],
   "dependencies": {
     "angular-bootstrap": "~0.12.1",
