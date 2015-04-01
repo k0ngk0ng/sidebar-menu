@@ -11,6 +11,12 @@
     background-image: -webkit-linear-gradient(left, color-stop(@menu-left-color 10px), color-stop(@menu-item-color 10px));
     background-image: linear-gradient(to right, @menu-left-color 10px, @menu-item-color 10px);
     background-repeat: repeat-x;
+	
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none; 
+	-khtml-user-select: none;
+	user-select: none;
 
     ul {
         padding: 0;
